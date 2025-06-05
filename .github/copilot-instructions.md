@@ -1,5 +1,5 @@
 ---
-applyTo: '**/*'
+applyTo: '**/*.cs'
 ---
 
 # Copilot Instructions
@@ -7,7 +7,7 @@ applyTo: '**/*'
 # It is not intended to be executed as code.
 # The instructions are written in Markdown format and should be clear and concise.
 
-# General Guidelines
+## General Guidelines
 - Always provide clear and concise code suggestions.
 - Use meaningful variable and function names.
 - Follow best practices for code readability and maintainability.
@@ -17,6 +17,7 @@ applyTo: '**/*'
 - When generating code, consider the context and purpose of the code being written.
 - If the code is part of a larger project, ensure that it integrates well with existing code.
 - If the code is for a specific programming language, follow the conventions and idioms of that language.
+- Always add the line number and the file name when you reference code.
 
 ## Namespaces and Imports
 - Use file-scoped namespaces that match the folder structure.
@@ -38,3 +39,10 @@ applyTo: '**/*'
 - Define record's properties on the same line with record declaration when possible.
 - Use immutable collections in records unless requested otherwise.
 - Use `ImmutableList<T>` in records whenever possible.
+
+## Libraries and Dependencies
+- Use well-known libraries and frameworks that are widely accepted in the community.
+- Avoid introducing unnecessary dependencies unless they provide significant benefits.
+- For MAUI applications, always use the .NET MAUI Community Toolkit for MVVM and other common tasks.
+- Always use the MVVM Toolkit for MVVM in MAUI and WinUI applications.
+- For WinUI applications, use the Windows Community Toolkit if it provides the needed functionality.
