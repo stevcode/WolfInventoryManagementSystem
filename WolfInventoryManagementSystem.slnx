@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/WolfInventoryManagementSystem.Core/WolfInventoryManagementSystem.Core.csproj" />
+    <Project Path="src/WolfInventoryManagementSystem.UI.MAUI/WolfInventoryManagementSystem.UI.MAUI.csproj" />
+  </Folder>
+</Solution>
